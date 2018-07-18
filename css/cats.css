@@ -1,9 +1,22 @@
-.cat-box img {
-  width: 100px;
+html {
+  text-align: center;
 }
 
-.summon-cats {
-  position: absolute;
+.cat-box img, .dog-box img {
+  width: 100px;
+  height: 100px;
+}
+
+body {
+  background: url('https://i.pinimg.com/564x/75/3c/02/753c02970d5ccdbd482312f60329c491.jpg');
+
+}
+
+
+
+
+.summon-cats, .summon-dogs {
+  position: block;
   left: 3px;
   top: 3px;
   background: #f0cc88;
@@ -11,10 +24,14 @@
   border: 1px solid #843720;
   color: #843720;
   padding: 0.5rem 1rem;
+  margin-bottom: 3em;
+  margin-top: 3em;
   border-radius: 3px;
   font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
 }
 
-.summon-cats:hover {
+.summon-cats:hover, .summon-dogs:hover {
   background-color: rgba(240,204,136, 0.6);
 }
